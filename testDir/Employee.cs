@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EmployeeDirectoryApp.Models;
+namespace EmployeeDirectoryApp.testDir;
 
 public partial class Employee
 {
@@ -15,11 +15,11 @@ public partial class Employee
 
     public string Email { get; set; } = null!;
 
-    public int JobTitleId { get; set; }
+    public string JobTitle { get; set; } = null!;
 
-    public int OfficeId { get; set; }
+    public string Office { get; set; } = null!;
 
-    public int DepartmentId { get; set; }
+    public string Department { get; set; } = null!;
 
     public decimal PhoneNumber { get; set; }
 
